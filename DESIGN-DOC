@@ -1,0 +1,29 @@
+# Perfect Use Cases / Example Clients
+
+Browser Bookmarks
+Notebook
+Screenshot Notebook
+Scrapbooks / Code Snippets (Organized by language)
+Filesystem Shortcuts / Journaling (Project folders)
+
+# Building Blocks:
+Hooks
+Events
+
+Everything within the message structure + saved persistently with added fields for:
+Expiration
+Sending Process
+Subscription API
+## Messages
+
+Structure - Tags, Data, Fields (List of Strings), Date/Time, Type, Key Type (Filename, String, Integer)
+Types - Global Broadcast, App-to-App, App Channel
+Graphs
+
+— Connect data structures by their Key type, define relationships between different sets of data in a
+nonlinear, tree based way. Example: Connecting the data type of stored notes to stored screenshots,
+or browser bookmarks to notes. Essentially simplified One to Many, One to One, or Many to Many relationships.
+Channels
+
+
+C++ API & Autobinding JSON RPC + REST endpoints
